@@ -41,7 +41,7 @@ function App() {
 							title="Sluttrapport"
 							description="Resultat av gjennomført prosjekt"
 						>
-							<Link className="jkl-small" href="" download>Last ned</Link>
+							<p className="jkl-small">(Nedlastning kommer)</p>
 						</Bit>
 					</Bits>
 				</Wrapper>
