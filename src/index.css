@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+	--svart: #000;
+	--granitt: #1b1917;
+	--skifer: #313030;
+	--fjellgra: #444141;
+	--stein: #636060;
+	--svaberg: #c8c5c3;
+	--varde: #e0dbd4;
+	--dis: #ece9e5;
+	--sand: #f4f2ef;
+	--snohvit: #f9f9f9;
+	--hvit: #fff;
+}
