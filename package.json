@@ -1,6 +1,7 @@
 {
   "name": "oversikt",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@fremtind/jkl-button-react": "^8.0.15",
