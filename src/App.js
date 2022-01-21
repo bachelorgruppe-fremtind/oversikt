@@ -23,19 +23,19 @@ function App() {
 							title="Statusrapport"
 							description="Status anngående leting etter oppdragsgiver."
 						>
-							<Link className="jkl-small" href="/assets/Statusrapport okt 2021.pdf" download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Statusrapport okt 2021.pdf"} download>Last ned</Link>
 						</Bit>
 						<Bit 
 							title="Prosjektskisse"
 							description="Kort om prosjektet og oppdragsgiver"
 						>
-							<Link className="jkl-small" href="/assets/Prosjektskisse Fremtind.pdf" download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Prosjektskisse Fremtind.pdf"} download>Last ned</Link>
 						</Bit>
 						<Bit 
 							title="Forprosjektrapport"
 							description="Kravspesifikasjon og fremdriftsplan"
 						>
-							<Link className="jkl-small" href="/assets/Forprosjektrapport gruppe 15.pdf" download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Forprosjektrapport gruppe 15.pdf"} download>Last ned</Link>
 						</Bit>
 						<Bit 
 							title="Sluttrapport"
@@ -51,16 +51,16 @@ function App() {
 					className="jkl-heading-2 jkl-spacing-xl--top jkl-spacing-l--bottom"
 				>Gruppa</h1>
 				<Grid>
-					<Testamonial contact="https://linkedin.com" image="/assets/adrian.jpg" name="Adrian Storset">
+					<Testamonial contact="https://www.linkedin.com/in/adrian-tokle-storset-7777b519b/" image="/assets/adrian.jpg" name="Adrian Storset">
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus cupiditate harum minima veritatis voluptatem enim culpa doloribus consequuntur in quidem.
 					</Testamonial>
-					<Testamonial contact="https://linkedin.com" image="/assets/mathias.jfif" name="Mathias Rundgreen">
+					<Testamonial contact="https://www.linkedin.com/in/mathias-rundgreen-03350130/" image="/assets/mathias.jfif" name="Mathias Rundgreen">
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus cupiditate harum minima veritatis voluptatem enim culpa doloribus consequuntur in quidem.
 					</Testamonial>
-					<Testamonial contact="https://linkedin.com" image="/assets/erik.jpg" name="Erik Sommer">
+					<Testamonial contact="https://www.linkedin.com/in/erikssommer/" image="/assets/erik.jpg" name="Erik Sommer">
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus cupiditate harum minima veritatis voluptatem enim culpa doloribus consequuntur in quidem.
 					</Testamonial>
-					<Testamonial contact="https://linkedin.com" image="/assets/mats.jpg" name="Mats Sommervold">
+					<Testamonial contact="https://www.linkedin.com/in/mats-sommervold/" image="/assets/mats.jpg" name="Mats Sommervold">
 						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus cupiditate harum minima veritatis voluptatem enim culpa doloribus consequuntur in quidem.
 					</Testamonial>
 				</Grid>

@@ -19,9 +19,9 @@ export default ({ name, image, contact, children }) => {
                         objectFit: 'cover',
                         borderRadius: '50%'
                     }} 
-                    src={image} 
+                    src={process.env.PUBLIC_URL + image}
                     alt={`Portrait of ${name}`}
-                    className='jkl-spacing-l--bottom'
+                    className='jkl-spacing-m--bottom'
                 />
                 <h3 style={{color:'var(--fjellgra)'}} className="jkl-heading-3 jkl-spacing-s--bottom">{name}</h3>
                 <p style={{color:'var(--stein)'}} className="jkl-body jkl-spacing-s--bottom">{children}</p>
