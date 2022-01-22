@@ -16,7 +16,7 @@ export default () => {
                 >
                     <p style={{
                         color: 'var(--sand)'
-                    }}>Bacheloroppgave dataingeniør, våren 2022, Oslo Metropolitain University</p>
+                    }}>Bacheloroppgave dataingeniør, våren 2022, Oslo Metropolitan University</p>
                 </div>
             </Wrapper>
         </div>
