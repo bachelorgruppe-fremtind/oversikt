@@ -41,7 +41,7 @@ function App() {
 							title="Sluttrapport"
 							description="Resultat av gjennomført prosjekt"
 						>
-							<p className="jkl-small">(Nedlastning kommer)</p>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/bacheloroppgave.pdf"} download>Last ned</Link>
 						</Bit>
 					</Bits>
 				</Wrapper>
