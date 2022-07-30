@@ -1,4 +1,4 @@
-# Bachelorprosjekt Dataingeniør
+# Bachelorprosjekt Dataingeniør - Juvet
 
 Oversikt over bachelorprosjekt med Fremdind Digital og OsloMet.
 
