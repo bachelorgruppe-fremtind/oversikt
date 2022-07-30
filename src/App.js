@@ -21,7 +21,7 @@ function App() {
 					<Bits>
 						<Bit 
 							title="Statusrapport"
-							description="Status anngående leting etter oppdragsgiver."
+							description="Status anngående leting etter oppdragsgiver"
 						>
 							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Statusrapport okt 2021.pdf"} download>Last ned</Link>
 						</Bit>
@@ -49,7 +49,7 @@ function App() {
 			<Wrapper>
 				<h1 
 					className="jkl-heading-2 jkl-spacing-xl--top jkl-spacing-l--bottom"
-				>Gruppa</h1>
+				>Gruppen</h1>
 				<Grid>
 					<Testamonial contact="https://www.linkedin.com/in/adrian-tokle-storset-7777b519b/" image="/assets/adrian.jpg" name="Adrian Storset">
 						Jeg er en kreativ gledesspreder. Jeg er løsningsorientert og liker å hjelpe andre med å nå deres mål mens jeg strekker meg etter mine egne.
