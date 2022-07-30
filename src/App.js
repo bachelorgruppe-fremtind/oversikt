@@ -58,7 +58,7 @@ function App() {
 						Jeg er en positiv og nysgjerrig person som liker å være i aktivitet. Vant til å ta ansvar for egen utvikling gjennom målsetting og strukturert arbeid.
 					</Testamonial>
 					<Testamonial contact="https://www.linkedin.com/in/erikssommer/" image="/assets/erik.jpg" name="Erik Sommer">
-						Jeg er 23 år og liker å holde meg i aktivitet, være sosial og ellers utvikle faglig kompetanse. Jeg liker en utfordring
+						Jeg liker å holde meg i aktivitet, være sosial og ellers utvikle faglig kompetanse. Jeg liker en utfordring.
 					</Testamonial>
 					<Testamonial contact="https://www.linkedin.com/in/mats-sommervold/" image="/assets/mats.jpg" name="Mats Sommervold">
 						Jeg er kreativ og liker å bygge nye ting. Elsker varierte arbeidsoppgaver med få restriksjoner. 
