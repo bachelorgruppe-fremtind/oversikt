@@ -25,7 +25,7 @@ export default ({ name, image, contact, children }) => {
                 />
                 <h3 style={{color:'var(--fjellgra)'}} className="jkl-heading-3 jkl-spacing-s--bottom">{name}</h3>
                 <p style={{color:'var(--stein)'}} className="jkl-body jkl-spacing-s--bottom">{children}</p>
-                <p className='jkl-body'><Link href={contact} external={true}>Kontakt meg</Link></p>
+                <p className='jkl-body'><Link href={contact} external={true} style={{color: 'blue'}}>Kontakt meg</Link></p>
             </div>
         </div>
     )

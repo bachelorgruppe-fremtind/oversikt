@@ -23,25 +23,25 @@ function App() {
 							title="Statusrapport"
 							description="Status anngående leting etter oppdragsgiver"
 						>
-							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Statusrapport okt 2021.pdf"} download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Statusrapport okt 2021.pdf"} download style={{color: 'blue'}}>Last ned</Link>
 						</Bit>
 						<Bit 
 							title="Prosjektskisse"
 							description="Kort om prosjektet og oppdragsgiver"
 						>
-							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Prosjektskisse Fremtind.pdf"} download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Prosjektskisse Fremtind.pdf"} download style={{color: 'blue'}}>Last ned</Link>
 						</Bit>
 						<Bit 
 							title="Forprosjektrapport"
 							description="Kravspesifikasjon og fremdriftsplan"
 						>
-							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Forprosjektrapport gruppe 15.pdf"} download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/Forprosjektrapport gruppe 15.pdf"} download style={{color: 'blue'}}>Last ned</Link>
 						</Bit>
 						<Bit 
 							title="Sluttrapport"
 							description="Resultat av gjennomført prosjekt"
 						>
-							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/bacheloroppgave.pdf"} download>Last ned</Link>
+							<Link className="jkl-small" href={process.env.PUBLIC_URL + "/assets/bacheloroppgave.pdf"} download style={{color: 'blue'}}>Last ned</Link>
 						</Bit>
 					</Bits>
 				</Wrapper>
